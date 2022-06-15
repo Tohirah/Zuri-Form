@@ -1,0 +1,87 @@
+?*{
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Poppins', sans-serif;
+    background-image: url(bg-intro-mobile.png);
+    background-color: rgba(255, 68, 0, 0.457);
+}
+@media (min-width: 1440px) {
+      background-image: url(bg-intro-desktop.png);
+    }
+main{
+    display: flex;
+    width: 65%;
+    margin: auto;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+h1{
+    
+    font-weight: 700;
+}
+h1~p{
+    Font-size: 12px;
+}
+.deets{
+    width: 50%;
+    margin-left: 50px;
+    text-align: left;
+    color: white;
+}
+.form{
+    width: 50%;
+    padding: 30px;
+}
+.header{
+    background-color: hsl(248, 32%, 49%);
+    border-radius: 6px;
+    height: 35px;
+    color: hsl(246, 25%, 77%);
+    text-align: center;
+    Font-size: 12px;
+    padding: 1.5px 0;
+}
+.head-span{
+    text-decoration: solid;
+    color: white;
+    font-weight: 700;
+}
+fieldset{
+    margin-top: 9px;
+    border: none;
+    background-color: white;
+    border-radius: 8px;
+    padding: 25px;
+}
+input{
+    width: 85%;
+    padding: 12px 25px;
+    margin-bottom: 13px;
+}
+input:focus{
+    background-color: #FFDAB9;
+}
+.btn{
+    height: 35px;
+    background-color: hsl(154, 59%, 51%);
+    border: none;
+    text-align: center;
+    border-radius: 5px;
+    width: 100%;
+    color: white;
+    font-weight: 600;
+}
+fieldset p{
+    Font-size: 10px;
+    color: hsl(246, 25%, 77%);       
+    font-weight: 500;
+}
+a{
+    color: hsl(0, 100%, 74%);    
+    font-weight: 700;
+}
+a:hover{
+    color:rgb(14, 43, 43);
+}
