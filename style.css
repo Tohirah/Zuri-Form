@@ -3,12 +3,9 @@
 }
 body{
     font-family: 'Poppins', sans-serif;
-    background-image: url(bg-intro-mobile.png);
+    background-image: url(bg-intro-desktop.png);
     background-color: rgba(255, 68, 0, 0.457);
 }
-@media (min-width: 1440px) {
-      background-image: url(bg-intro-desktop.png);
-    }
 main{
     display: flex;
     width: 65%;
@@ -18,7 +15,6 @@ main{
     height: 100vh;
 }
 h1{
-    
     font-weight: 700;
 }
 h1~p{
@@ -84,4 +80,30 @@ a{
 }
 a:hover{
     color:rgb(14, 43, 43);
+}
+@media (max-width: 1440px) {
+      background-image: url(bg-intro-desktop.png);
+    }
+@media screen and (max-width: 375px){
+    body{
+        background-image: url(bg-intro-mobile.png);
+    }
+    main{
+        flex-direction: column;
+    }
+    h1{
+        font-size: 700;
+    }
+    .header{        
+    Font-size: 9px;
+    }
+    .form{
+        width: 100%;
+    }
+    input{
+        width: 70%;
+    }
+    .btn{
+        font-size: 10px;
+    }
 }
